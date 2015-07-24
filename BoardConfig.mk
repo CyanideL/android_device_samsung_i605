@@ -23,6 +23,9 @@
 # GPS
 BOARD_GPS_SET_PRIVACY := true
 
+# LZMA
+WITH_LZMA_OTA := true
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/i605/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
